@@ -1,0 +1,5 @@
+./node_modules
+Dockerfile
+.dockerignore
+statusCode
+Docker-compose.yml
