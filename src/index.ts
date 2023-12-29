@@ -55,7 +55,7 @@ app.use(express.static(path.join(__dirname, "public")));
 const PORT: number = Number(config?.PORT);
 
 app.get("/", (req: Request, res: Response) => {
-  res.send("Express + TypeScript Server" + config?.JWT_SECRET);
+  res.send("Express + TypeScript Server");
 });
 
 app.listen(PORT, () => {
